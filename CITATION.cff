@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use bobyqa-java in academic work, please cite it as below."
+title: "bobyqa-java: a Java port of PyBOBYQA"
+abstract: >-
+  Derivative-free, bounds-constrained optimizer in pure Java — a port of
+  PyBOBYQA with extensions for expensive, stochastic, and multiplicatively-noisy
+  objectives encountered in real-world physical systems.
+type: software
+version: 1.0.0
+authors:
+  - family-names: Geithner
+    given-names: Wolfgang
+    orcid: https://orcid.org/0000-0003-1326-9394
+    affiliation: "GSI Helmholtzzentrum für Schwerionenforschung GmbH"
+license: GPL-3.0-or-later
+repository-code: "https://github.com/fair-acc/bobyqa-java"
+url: "https://github.com/fair-acc/bobyqa-java"
+keywords:
+  - optimization
+  - derivative-free
+  - bounds-constrained
+  - bobyqa
+  - quadratic-approximation
+  - trust-region
+  - noise-handling
+  - warm-start
+  - java
+  - particle-accelerator
+references:
+  - type: techreport
+    authors:
+      - family-names: Powell
+        given-names: M.J.D.
+    title: "The BOBYQA algorithm for bound constrained optimization without derivatives"
+    institution:
+      name: "DAMTP, University of Cambridge"
+    number: "NA2009/06"
+    year: 2009
+  - type: software
+    title: PyBOBYQA
+    authors:
+      - name: "Numerical Algorithms Group Ltd."
+    url: "https://github.com/numericalalgorithmsgroup/pybobyqa"
+    notes: "Python implementation that bobyqa-java is ported from"

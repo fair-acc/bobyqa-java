@@ -1,0 +1,27 @@
+name: ci
+
+on:
+  push:
+    branches: [ main, public-release ]
+  pull_request:
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        java: [ '17', '21' ]
+        os:   [ ubuntu-latest, windows-latest, macos-latest ]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK ${{ matrix.java }}
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: ${{ matrix.java }}
+          cache: maven
+
+      - name: Build, test, and verify license headers
+        run: mvn -B -ntp verify

@@ -1,0 +1,20 @@
+bobyqa-java
+Copyright (C) 2026 GSI Helmholtzzentrum für Schwerionenforschung GmbH
+
+This program is a Java port of PyBOBYQA, a derivative-free optimizer
+developed by the Numerical Algorithms Group Ltd. (NAG).
+
+  Upstream:  https://github.com/numericalalgorithmsgroup/pybobyqa
+  PyBOBYQA:  Copyright © Numerical Algorithms Group Ltd, 2017–
+  Algorithm: Based on BOBYQA by M. J. D. Powell (2009)
+
+PyBOBYQA is licensed under the GNU General Public License v3.0; this
+Java port is therefore likewise licensed under GPL-3.0-or-later. See
+LICENSE for the full license text.
+
+This work uses EJML (https://ejml.org/, source at
+https://github.com/lessthanoptimal/ejml) by Peter Abeles for matrix
+operations, licensed under the Apache License 2.0
+(https://www.apache.org/licenses/LICENSE-2.0.txt). EJML is resolved
+as a transitive Maven dependency at build time and is not
+redistributed within this artifact.
