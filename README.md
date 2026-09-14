@@ -15,7 +15,7 @@
 
 ## Installation
 
-For v1.0, clone-and-build:
+For v1.0.1, clone-and-build:
 
 ```bash
 git clone https://github.com/fair-acc/bobyqa-java.git
