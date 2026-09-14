@@ -89,7 +89,7 @@ The full technical design is in [docs/design/bobyqa-java-port-design.md](docs/de
 
 This is a Java port of **[PyBOBYQA](https://github.com/numericalalgorithmsgroup/pybobyqa)** by the Numerical Algorithms Group (NAG), itself a Python implementation of **BOBYQA** (Bound Optimization BY Quadratic Approximation) by M. J. D. Powell (2009).
 
-Portions of this software were developed with the assistance of AI coding tools (Claude Code by Anthropic).
+Disclaimer: This software has been authored using AI, namely CLAUDE Code (version(s) 4.6 and following).
 
 ## License
 

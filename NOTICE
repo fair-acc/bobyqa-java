@@ -19,5 +19,5 @@ operations, licensed under the Apache License 2.0
 as a transitive Maven dependency at build time and is not
 redistributed within this artifact.
 
-Portions of this software were developed with the assistance of AI
-coding tools (Claude Code by Anthropic).
+Disclaimer: This software has been authored using AI, namely CLAUDE
+Code (version(s) 4.6 and following).

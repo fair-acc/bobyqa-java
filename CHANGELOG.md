@@ -6,8 +6,8 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: [S
 ## [Unreleased]
 
 ### Changed
-- Documented that portions of the software were developed with the
-  assistance of AI coding tools (Claude Code by Anthropic) in README and NOTICE.
+- Added an AI-assistance disclaimer to README and NOTICE: this software
+  has been authored using AI, namely CLAUDE Code (version(s) 4.6 and following).
 
 ## [1.0.0] — 2026-09-14
 
