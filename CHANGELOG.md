@@ -3,6 +3,12 @@
 All notable changes to bobyqa-java are documented in this file.
 Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning: [SemVer](https://semver.org/).
 
+## [Unreleased]
+
+### Changed
+- Documented that portions of the software were developed with the
+  assistance of AI coding tools (Claude Code by Anthropic) in README and NOTICE.
+
 ## [1.0.0] — 2026-09-14
 
 ### Added
